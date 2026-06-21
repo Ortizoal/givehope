@@ -43,7 +43,7 @@ export default function DonatePage() {
         <form onSubmit={handleDonate} className="space-y-5">
           <div>
             <label className="label">Select Amount (₦)</label>
-            <div className="grid grid-cols-5 gap-2 mb-3">
+            <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 mb-3">
               {presets.map(p => (
                 <button
                   key={p} type="button"
